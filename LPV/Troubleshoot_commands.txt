@@ -1,0 +1,19 @@
+Delete a folder:
+rm -r folder_name — removes a directory and its contents. Add -f to force delete: rm -rf folder_name.
+
+Go up one directory:
+cd .. — moves you to the parent directory of the current location.
+
+Change directory using relative path:
+cd ./path — moves into a folder named path that is inside your current directory (. refers to "here").
+
+
+
+<<< Update Mingw64 on Ubanto Terminal >>>
+
+sudo apt update
+sudo apt install --only-upgrade mingw-w64
+OR
+sudo apt install mingw-w64
+
+
